@@ -24,7 +24,7 @@ Examples:
 
 **Level 1.** One or more devices in a collection can be configured by a manager by writing a statement like:
 
-```TVs[pax, quarantine, location-deck] play[multicast, udp://239.11.21.23:4000] as myCurrentChannel```
+```TVs[pax, quarantine, location-casino-1] play[multicast, udp://239.11.21.23:4000] as myCurrentChannel```
 
 **Or a user could issue commands that basically comes down to running the following API call**
 
@@ -33,7 +33,7 @@ Examples:
 
 **Level 2.** Besides ```play[multicast]``` you could add
 
-```run[muting_service, volume_manager, internet_plans_service]```<br/>
+```run[muxing_service, volume_manager, internet_plans_service]```<br/>
 ```clean[logs]```<br/>
 ```test[connection[test-command-list] between[TV, LGServer]]```
 
