@@ -9,3 +9,23 @@ avatar: https://avatars1.githubusercontent.com/u/1485929?s=400&v=4
 #remote_theme: "mmistakes/minimal-mistakes"
 
 repository: risavkarna/cosys
+
+gems: ["jekyll-sitemap"]
+
+title : CoSys Core
+tagline: Work Together
+author :
+  name : Risav Karna
+  email : risavkarna@gmail.com
+  github : risavkarna
+  twitter : risavkarna
+
+
+JB :
+  version : 0.3.0
+  BASE_PATH : false
+
+  comments :
+    provider : disqus
+    disqus :
+      short_name : jekyllbootstrap
